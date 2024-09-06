@@ -14,7 +14,8 @@ the script will parse the matching dissertations and output the paragraphs of th
 The following fields can be modified in ```parse_config.json``` (or saved in a new config file):
 
 1. ```domain_name```: a keyword that summarizes your domain (will be used when saving the output files). 
-2. ```domain_codes```: The codes that represent the research areas are described in https://d-nb.info/1052700705/34. The assigned codes in the bibliography
+2. ```domain_codes```: The codes that represent the research areas are described in the [full](https://d-nb.info/1052700705/34) or [short](https://www.dnb.de/SharedDocs/Downloads/EN/Professionell/DDC/ddcSachgruppenDNBAb2013.pdf?__blob=publicationFile&v=4).
+documents. The assigned codes in the bibliography
 will typically start with these codes, so the list can't be exhaustive. The script checks if an assighed code starts with the codes provides in this list. 
 3. ```exception_list```: The file above also describes which sub-codes need to be excluded/ignored from each code. If an exception code is listed for a specific domain,
 it needs to be added to this list. The list can be empty.
