@@ -1,0 +1,7 @@
+tika==2.6.0
+loguru==0.7.2
+requests==2.32.3
+pyhocon==0.3.61
+pandas==2.2.2
+beautifulsoup4==4.12.3
+gdown==5.2.0

@@ -1,0 +1,8 @@
+{
+  "domain_name": "electronics",
+  "domain_codes": ["621.3", "621.46", "629.8"],
+  "exception_list": [],
+  "language": "ger",
+  "paragraphs_per_file": 100000,
+  "min_chars_paragraph": 50
+}
