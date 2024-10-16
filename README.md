@@ -1,9 +1,9 @@
 # Parser of DNB (Deutsche National Bibliothek) Dissertations
 
 Acquiring domain-related data for continual pretraining of language models is often a manual and tedious task, which 
-becomes even more complex when the language of interest is not English. The repository provides a script of acquiring and
-parsing [300K DNB dissertations](https://www.dnb.de/dissonline) that mainly target German data. Provided a set of topic codes that can describe your domain, 
-the script will parse the matching dissertations and output the paragraphs of them.
+becomes even more complex when the language of interest is not English. The repository provides a script for acquiring and
+parsing [300K DNB dissertations](https://www.dnb.de/dissonline), mainly targeting German data. Provided a set of topic codes that can describe your domain, 
+the script will parse the matching dissertations and output their paragraphs. A link to the dataset to [download](https://data.dnb.de/FreieOnlineHochschulschriften/) or as [an online catalog](https://portal.dnb.de/opac.htm?query=catalog%3Ddnb.hss+location%3Donlinefree+&method=simpleSearch&cqlMode=true).
 
 ## Installation & execution
 2. Install the requirements  ```pip install -r requirements.txt```
