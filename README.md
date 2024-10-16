@@ -2,7 +2,7 @@
 
 Acquiring domain-related data for continual pretraining of language models is often a manual and tedious task, which 
 becomes even more complex when the language of interest is not English. The repository provides a script of acquiring and
-parsing 300K DNB dissertations that mainly target German data. Provided a set of topic codes that can describe your domain, 
+parsing [300K DNB dissertations](https://www.dnb.de/dissonline) that mainly target German data. Provided a set of topic codes that can describe your domain, 
 the script will parse the matching dissertations and output the paragraphs of them.
 
 ## Installation & execution
